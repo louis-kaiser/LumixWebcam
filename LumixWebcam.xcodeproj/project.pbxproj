@@ -68,6 +68,20 @@
 			);
 			target = 3DBCD8A62EEAE8D400DF2617 /* LumixCameraExtension */;
 		};
+		3DBCD8D12EEAEF8A00DF2617 /* Exceptions for "Shared" folder in "LumixCameraExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				SharedUserDefaults.swift,
+			);
+			target = 3DBCD8A62EEAE8D400DF2617 /* LumixCameraExtension */;
+		};
+		3DBCD8D22EEAEF8A00DF2617 /* Exceptions for "Shared" folder in "Shared" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				SharedUserDefaults.swift,
+			);
+			target = 3DBCD8BB2EEAE92900DF2617 /* Shared */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -86,6 +100,10 @@
 		};
 		3DBCD8BD2EEAE92900DF2617 /* Shared */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3DBCD8D12EEAEF8A00DF2617 /* Exceptions for "Shared" folder in "LumixCameraExtension" target */,
+				3DBCD8D22EEAEF8A00DF2617 /* Exceptions for "Shared" folder in "Shared" target */,
+			);
 			path = Shared;
 			sourceTree = "<group>";
 		};
