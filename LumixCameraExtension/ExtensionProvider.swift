@@ -10,6 +10,7 @@
 import Foundation
 import CoreMediaIO
 import os.log
+import Shared
 
 let logger = Logger(subsystem: LumixConstants.extensionBundleID, category: "Extension")
 

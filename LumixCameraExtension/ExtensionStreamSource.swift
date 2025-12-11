@@ -11,6 +11,7 @@ import Foundation
 import CoreMediaIO
 import AVFoundation
 import os.log
+import Shared
 
 class ExtensionStreamSource: NSObject, CMIOExtensionStreamSource {
     private(set) var stream: CMIOExtensionStream!

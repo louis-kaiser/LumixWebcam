@@ -1,0 +1,176 @@
+{
+  "source": "/Users/louiskaiser/Documents/Xcode/LumixWebcam/LumixWebcam/Views/SettingsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "General",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "Video",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "Extension",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "Automatically start camera on launch",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "Show in menu bar",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "",
+        "key": "Preferred Frame Rate",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 64
+        }
+      },
+      {
+        "comment": "",
+        "key": "24 fps",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 65
+        }
+      },
+      {
+        "comment": "",
+        "key": "30 fps",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 66
+        }
+      },
+      {
+        "comment": "",
+        "key": "60 fps",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 67
+        }
+      },
+      {
+        "comment": "",
+        "key": "Current Resolution",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 71
+        }
+      },
+      {
+        "comment": "",
+        "key": "%d × %d",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 73
+        }
+      },
+      {
+        "comment": "",
+        "key": "Uninstall Extension?",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 115
+        }
+      },
+      {
+        "comment": "",
+        "key": "Status",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 88
+        }
+      },
+      {
+        "comment": "",
+        "key": "Version",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 97
+        }
+      },
+      {
+        "comment": "",
+        "key": "Installed",
+        "location": {
+          "startingColumn": 61,
+          "startingLine": 93
+        }
+      },
+      {
+        "comment": "",
+        "key": "Not Installed",
+        "location": {
+          "startingColumn": 75,
+          "startingLine": 93
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reinstall Extension",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 103
+        }
+      },
+      {
+        "comment": "",
+        "key": "Uninstall Extension",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 109
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 116
+        }
+      },
+      {
+        "comment": "",
+        "key": "Uninstall",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 117
+        }
+      },
+      {
+        "comment": "",
+        "key": "The virtual camera will no longer be available to FaceTime and other apps.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 123
+        }
+      }
+    ]
+  },
+  "version": 1
+}

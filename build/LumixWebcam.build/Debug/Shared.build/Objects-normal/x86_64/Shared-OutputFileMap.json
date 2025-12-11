@@ -1,0 +1,49 @@
+{
+  "" : {
+    "diagnostics" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/Shared-primary.dia",
+    "emit-module-dependencies" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/Shared-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/Shared-primary-emit-module.dia",
+    "pch" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/Shared-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/Shared-primary.swiftdeps"
+  },
+  "/Users/louiskaiser/Documents/Xcode/LumixWebcam/Shared/Constants.swift" : {
+    "const-values" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/Constants.swiftconstvalues",
+    "dependencies" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/Constants.d",
+    "diagnostics" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/Constants.dia",
+    "index-unit-output-path" : "/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/Constants.o",
+    "llvm-bc" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/Constants.bc",
+    "object" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/Constants.o",
+    "swift-dependencies" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/Constants.swiftdeps",
+    "swiftmodule" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/Constants~partial.swiftmodule"
+  },
+  "/Users/louiskaiser/Documents/Xcode/LumixWebcam/Shared/PixelBufferPool.swift" : {
+    "const-values" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/PixelBufferPool.swiftconstvalues",
+    "dependencies" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/PixelBufferPool.d",
+    "diagnostics" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/PixelBufferPool.dia",
+    "index-unit-output-path" : "/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/PixelBufferPool.o",
+    "llvm-bc" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/PixelBufferPool.bc",
+    "object" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/PixelBufferPool.o",
+    "swift-dependencies" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/PixelBufferPool.swiftdeps",
+    "swiftmodule" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/PixelBufferPool~partial.swiftmodule"
+  },
+  "/Users/louiskaiser/Documents/Xcode/LumixWebcam/Shared/Shared.swift" : {
+    "const-values" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/Shared-1e79d8e14aac3dfcc425679d0676a9bd.swiftconstvalues",
+    "dependencies" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/Shared-1e79d8e14aac3dfcc425679d0676a9bd.d",
+    "diagnostics" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/Shared-1e79d8e14aac3dfcc425679d0676a9bd.dia",
+    "index-unit-output-path" : "/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/Shared-1e79d8e14aac3dfcc425679d0676a9bd.o",
+    "llvm-bc" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/Shared-1e79d8e14aac3dfcc425679d0676a9bd.bc",
+    "object" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/Shared-1e79d8e14aac3dfcc425679d0676a9bd.o",
+    "swift-dependencies" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/Shared-1e79d8e14aac3dfcc425679d0676a9bd.swiftdeps",
+    "swiftmodule" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/Shared-1e79d8e14aac3dfcc425679d0676a9bd~partial.swiftmodule"
+  },
+  "/Users/louiskaiser/Documents/Xcode/LumixWebcam/Shared/SharedUserDefaults.swift" : {
+    "const-values" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/SharedUserDefaults.swiftconstvalues",
+    "dependencies" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/SharedUserDefaults.d",
+    "diagnostics" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/SharedUserDefaults.dia",
+    "index-unit-output-path" : "/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/SharedUserDefaults.o",
+    "llvm-bc" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/SharedUserDefaults.bc",
+    "object" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/SharedUserDefaults.o",
+    "swift-dependencies" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/SharedUserDefaults.swiftdeps",
+    "swiftmodule" : "/Users/louiskaiser/Documents/Xcode/LumixWebcam/build/LumixWebcam.build/Debug/Shared.build/Objects-normal/x86_64/SharedUserDefaults~partial.swiftmodule"
+  }
+}

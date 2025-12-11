@@ -11,6 +11,7 @@ import Foundation
 import AVFoundation
 import CoreMedia
 import os.log
+import Shared
 
 class LumixCaptureSession: NSObject {
     private var captureSession: AVCaptureSession?

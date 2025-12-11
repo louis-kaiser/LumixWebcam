@@ -8,6 +8,7 @@
 // SettingsView.swift
 
 import SwiftUI
+import Shared
 
 struct SettingsView: View {
     @EnvironmentObject var extensionManager: ExtensionManager

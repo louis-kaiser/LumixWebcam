@@ -1,0 +1,1488 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Shared",
+    "printedName": "Shared",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Shared",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "Shared"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LumixConstants",
+        "printedName": "LumixConstants",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "extensionBundleID",
+            "printedName": "extensionBundleID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shared14LumixConstantsO17extensionBundleIDSSvpZ",
+            "mangledName": "$s6Shared14LumixConstantsO17extensionBundleIDSSvpZ",
+            "moduleName": "Shared",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared14LumixConstantsO17extensionBundleIDSSvgZ",
+                "mangledName": "$s6Shared14LumixConstantsO17extensionBundleIDSSvgZ",
+                "moduleName": "Shared",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appGroupID",
+            "printedName": "appGroupID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shared14LumixConstantsO10appGroupIDSSvpZ",
+            "mangledName": "$s6Shared14LumixConstantsO10appGroupIDSSvpZ",
+            "moduleName": "Shared",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared14LumixConstantsO10appGroupIDSSvgZ",
+                "mangledName": "$s6Shared14LumixConstantsO10appGroupIDSSvgZ",
+                "moduleName": "Shared",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceName",
+            "printedName": "deviceName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shared14LumixConstantsO10deviceNameSSvpZ",
+            "mangledName": "$s6Shared14LumixConstantsO10deviceNameSSvpZ",
+            "moduleName": "Shared",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared14LumixConstantsO10deviceNameSSvgZ",
+                "mangledName": "$s6Shared14LumixConstantsO10deviceNameSSvgZ",
+                "moduleName": "Shared",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceManufacturer",
+            "printedName": "deviceManufacturer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shared14LumixConstantsO18deviceManufacturerSSvpZ",
+            "mangledName": "$s6Shared14LumixConstantsO18deviceManufacturerSSvpZ",
+            "moduleName": "Shared",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared14LumixConstantsO18deviceManufacturerSSvgZ",
+                "mangledName": "$s6Shared14LumixConstantsO18deviceManufacturerSSvgZ",
+                "moduleName": "Shared",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceModel",
+            "printedName": "deviceModel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shared14LumixConstantsO11deviceModelSSvpZ",
+            "mangledName": "$s6Shared14LumixConstantsO11deviceModelSSvpZ",
+            "moduleName": "Shared",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared14LumixConstantsO11deviceModelSSvgZ",
+                "mangledName": "$s6Shared14LumixConstantsO11deviceModelSSvgZ",
+                "moduleName": "Shared",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceUUID",
+            "printedName": "deviceUUID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shared14LumixConstantsO10deviceUUID10Foundation0E0VvpZ",
+            "mangledName": "$s6Shared14LumixConstantsO10deviceUUID10Foundation0E0VvpZ",
+            "moduleName": "Shared",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared14LumixConstantsO10deviceUUID10Foundation0E0VvgZ",
+                "mangledName": "$s6Shared14LumixConstantsO10deviceUUID10Foundation0E0VvgZ",
+                "moduleName": "Shared",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "streamUUID",
+            "printedName": "streamUUID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shared14LumixConstantsO10streamUUID10Foundation0E0VvpZ",
+            "mangledName": "$s6Shared14LumixConstantsO10streamUUID10Foundation0E0VvpZ",
+            "moduleName": "Shared",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared14LumixConstantsO10streamUUID10Foundation0E0VvgZ",
+                "mangledName": "$s6Shared14LumixConstantsO10streamUUID10Foundation0E0VvgZ",
+                "moduleName": "Shared",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultWidth",
+            "printedName": "defaultWidth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shared14LumixConstantsO12defaultWidths5Int32VvpZ",
+            "mangledName": "$s6Shared14LumixConstantsO12defaultWidths5Int32VvpZ",
+            "moduleName": "Shared",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared14LumixConstantsO12defaultWidths5Int32VvgZ",
+                "mangledName": "$s6Shared14LumixConstantsO12defaultWidths5Int32VvgZ",
+                "moduleName": "Shared",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultHeight",
+            "printedName": "defaultHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shared14LumixConstantsO13defaultHeights5Int32VvpZ",
+            "mangledName": "$s6Shared14LumixConstantsO13defaultHeights5Int32VvpZ",
+            "moduleName": "Shared",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared14LumixConstantsO13defaultHeights5Int32VvgZ",
+                "mangledName": "$s6Shared14LumixConstantsO13defaultHeights5Int32VvgZ",
+                "moduleName": "Shared",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultFrameRate",
+            "printedName": "defaultFrameRate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shared14LumixConstantsO16defaultFrameRateSdvpZ",
+            "mangledName": "$s6Shared14LumixConstantsO16defaultFrameRateSdvpZ",
+            "moduleName": "Shared",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared14LumixConstantsO16defaultFrameRateSdvgZ",
+                "mangledName": "$s6Shared14LumixConstantsO16defaultFrameRateSdvgZ",
+                "moduleName": "Shared",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pixelFormat",
+            "printedName": "pixelFormat",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shared14LumixConstantsO11pixelFormats6UInt32VvpZ",
+            "mangledName": "$s6Shared14LumixConstantsO11pixelFormats6UInt32VvpZ",
+            "moduleName": "Shared",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared14LumixConstantsO11pixelFormats6UInt32VvgZ",
+                "mangledName": "$s6Shared14LumixConstantsO11pixelFormats6UInt32VvgZ",
+                "moduleName": "Shared",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "supportedResolutions",
+            "printedName": "supportedResolutions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[(width: Swift.Int32, height: Swift.Int32)]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(width: Swift.Int32, height: Swift.Int32)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shared14LumixConstantsO20supportedResolutionsSays5Int32V5width_AF6heighttGvpZ",
+            "mangledName": "$s6Shared14LumixConstantsO20supportedResolutionsSays5Int32V5width_AF6heighttGvpZ",
+            "moduleName": "Shared",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[(width: Swift.Int32, height: Swift.Int32)]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(width: Swift.Int32, height: Swift.Int32)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int32",
+                            "printedName": "Swift.Int32",
+                            "usr": "s:s5Int32V"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int32",
+                            "printedName": "Swift.Int32",
+                            "usr": "s:s5Int32V"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared14LumixConstantsO20supportedResolutionsSays5Int32V5width_AF6heighttGvgZ",
+                "mangledName": "$s6Shared14LumixConstantsO20supportedResolutionsSays5Int32V5width_AF6heighttGvgZ",
+                "moduleName": "Shared",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "selectedCameraIDKey",
+            "printedName": "selectedCameraIDKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shared14LumixConstantsO19selectedCameraIDKeySSvpZ",
+            "mangledName": "$s6Shared14LumixConstantsO19selectedCameraIDKeySSvpZ",
+            "moduleName": "Shared",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared14LumixConstantsO19selectedCameraIDKeySSvgZ",
+                "mangledName": "$s6Shared14LumixConstantsO19selectedCameraIDKeySSvgZ",
+                "moduleName": "Shared",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "selectedResolutionKey",
+            "printedName": "selectedResolutionKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shared14LumixConstantsO21selectedResolutionKeySSvpZ",
+            "mangledName": "$s6Shared14LumixConstantsO21selectedResolutionKeySSvpZ",
+            "moduleName": "Shared",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared14LumixConstantsO21selectedResolutionKeySSvgZ",
+                "mangledName": "$s6Shared14LumixConstantsO21selectedResolutionKeySSvgZ",
+                "moduleName": "Shared",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isExtensionActiveKey",
+            "printedName": "isExtensionActiveKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shared14LumixConstantsO20isExtensionActiveKeySSvpZ",
+            "mangledName": "$s6Shared14LumixConstantsO20isExtensionActiveKeySSvpZ",
+            "moduleName": "Shared",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared14LumixConstantsO20isExtensionActiveKeySSvgZ",
+                "mangledName": "$s6Shared14LumixConstantsO20isExtensionActiveKeySSvgZ",
+                "moduleName": "Shared",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6Shared14LumixConstantsO",
+        "mangledName": "$s6Shared14LumixConstantsO",
+        "moduleName": "Shared",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreVideo",
+        "printedName": "CoreVideo",
+        "declKind": "Import",
+        "moduleName": "Shared",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Shared"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PixelBufferPool",
+        "printedName": "PixelBufferPool",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(width:height:pixelFormat:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PixelBufferPool",
+                "printedName": "Shared.PixelBufferPool",
+                "usr": "s:6Shared15PixelBufferPoolC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "hasDefaultArg": true,
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6Shared15PixelBufferPoolC5width6height11pixelFormatACSi_Sis6UInt32Vtcfc",
+            "mangledName": "$s6Shared15PixelBufferPoolC5width6height11pixelFormatACSi_Sis6UInt32Vtcfc",
+            "moduleName": "Shared",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "createPixelBuffer",
+            "printedName": "createPixelBuffer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreVideo.CVBuffer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVBuffer",
+                    "printedName": "CoreVideo.CVBuffer",
+                    "usr": "c:@T@CVBufferRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Shared15PixelBufferPoolC06createbC0So11CVBufferRefaSgyF",
+            "mangledName": "$s6Shared15PixelBufferPoolC06createbC0So11CVBufferRefaSgyF",
+            "moduleName": "Shared",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "copyPixelBuffer",
+            "printedName": "copyPixelBuffer(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreVideo.CVBuffer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVBuffer",
+                    "printedName": "CoreVideo.CVBuffer",
+                    "usr": "c:@T@CVBufferRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CVBuffer",
+                "printedName": "CoreVideo.CVBuffer",
+                "usr": "c:@T@CVBufferRef"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Shared15PixelBufferPoolC04copybC04fromSo11CVBufferRefaSgAG_tF",
+            "mangledName": "$s6Shared15PixelBufferPoolC04copybC04fromSo11CVBufferRefaSgAG_tF",
+            "moduleName": "Shared",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6Shared15PixelBufferPoolC",
+        "mangledName": "$s6Shared15PixelBufferPoolC",
+        "moduleName": "Shared",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Shared",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Shared",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SharedUserDefaults",
+        "printedName": "SharedUserDefaults",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SharedUserDefaults",
+                "printedName": "Shared.SharedUserDefaults",
+                "usr": "s:6Shared0A12UserDefaultsC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shared0A12UserDefaultsC6sharedACvpZ",
+            "mangledName": "$s6Shared0A12UserDefaultsC6sharedACvpZ",
+            "moduleName": "Shared",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SharedUserDefaults",
+                    "printedName": "Shared.SharedUserDefaults",
+                    "usr": "s:6Shared0A12UserDefaultsC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared0A12UserDefaultsC6sharedACvgZ",
+                "mangledName": "$s6Shared0A12UserDefaultsC6sharedACvgZ",
+                "moduleName": "Shared",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "selectedCameraID",
+            "printedName": "selectedCameraID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shared0A12UserDefaultsC16selectedCameraIDSSSgvp",
+            "mangledName": "$s6Shared0A12UserDefaultsC16selectedCameraIDSSSgvp",
+            "moduleName": "Shared",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared0A12UserDefaultsC16selectedCameraIDSSSgvg",
+                "mangledName": "$s6Shared0A12UserDefaultsC16selectedCameraIDSSSgvg",
+                "moduleName": "Shared",
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared0A12UserDefaultsC16selectedCameraIDSSSgvs",
+                "mangledName": "$s6Shared0A12UserDefaultsC16selectedCameraIDSSSgvs",
+                "moduleName": "Shared",
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared0A12UserDefaultsC16selectedCameraIDSSSgvM",
+                "mangledName": "$s6Shared0A12UserDefaultsC16selectedCameraIDSSSgvM",
+                "moduleName": "Shared",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "selectedResolution",
+            "printedName": "selectedResolution",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(width: Swift.Int32, height: Swift.Int32)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shared0A12UserDefaultsC18selectedResolutions5Int32V5width_AF6heighttvp",
+            "mangledName": "$s6Shared0A12UserDefaultsC18selectedResolutions5Int32V5width_AF6heighttvp",
+            "moduleName": "Shared",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(width: Swift.Int32, height: Swift.Int32)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared0A12UserDefaultsC18selectedResolutions5Int32V5width_AF6heighttvg",
+                "mangledName": "$s6Shared0A12UserDefaultsC18selectedResolutions5Int32V5width_AF6heighttvg",
+                "moduleName": "Shared",
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(width: Swift.Int32, height: Swift.Int32)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared0A12UserDefaultsC18selectedResolutions5Int32V5width_AF6heighttvs",
+                "mangledName": "$s6Shared0A12UserDefaultsC18selectedResolutions5Int32V5width_AF6heighttvs",
+                "moduleName": "Shared",
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared0A12UserDefaultsC18selectedResolutions5Int32V5width_AF6heighttvM",
+                "mangledName": "$s6Shared0A12UserDefaultsC18selectedResolutions5Int32V5width_AF6heighttvM",
+                "moduleName": "Shared",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isExtensionActive",
+            "printedName": "isExtensionActive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shared0A12UserDefaultsC17isExtensionActiveSbvp",
+            "mangledName": "$s6Shared0A12UserDefaultsC17isExtensionActiveSbvp",
+            "moduleName": "Shared",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared0A12UserDefaultsC17isExtensionActiveSbvg",
+                "mangledName": "$s6Shared0A12UserDefaultsC17isExtensionActiveSbvg",
+                "moduleName": "Shared",
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared0A12UserDefaultsC17isExtensionActiveSbvs",
+                "mangledName": "$s6Shared0A12UserDefaultsC17isExtensionActiveSbvs",
+                "moduleName": "Shared",
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shared0A12UserDefaultsC17isExtensionActiveSbvM",
+                "mangledName": "$s6Shared0A12UserDefaultsC17isExtensionActiveSbvM",
+                "moduleName": "Shared",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6Shared0A12UserDefaultsC",
+        "mangledName": "$s6Shared0A12UserDefaultsC",
+        "moduleName": "Shared",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/louiskaiser\/Documents\/Xcode\/LumixWebcam\/Shared\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 50,
+      "value": "\"com.yourcompany.LumixWebcam.LumixCameraExtension\""
+    },
+    {
+      "filePath": "\/Users\/louiskaiser\/Documents\/Xcode\/LumixWebcam\/Shared\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 334,
+      "length": 35,
+      "value": "\"group.com.yourcompany.LumixWebcam\""
+    },
+    {
+      "filePath": "\/Users\/louiskaiser\/Documents\/Xcode\/LumixWebcam\/Shared\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 443,
+      "length": 17,
+      "value": "\"Lumix S5 Webcam\""
+    },
+    {
+      "filePath": "\/Users\/louiskaiser\/Documents\/Xcode\/LumixWebcam\/Shared\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 504,
+      "length": 21,
+      "value": "\"Panasonic (Virtual)\""
+    },
+    {
+      "filePath": "\/Users\/louiskaiser\/Documents\/Xcode\/LumixWebcam\/Shared\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 562,
+      "length": 10,
+      "value": "\"Lumix S5\""
+    },
+    {
+      "filePath": "\/Users\/louiskaiser\/Documents\/Xcode\/LumixWebcam\/Shared\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 687,
+      "length": 38,
+      "value": "\"A1B2C3D4-E5F6-7890-ABCD-EF1234567890\""
+    },
+    {
+      "filePath": "\/Users\/louiskaiser\/Documents\/Xcode\/LumixWebcam\/Shared\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 780,
+      "length": 38,
+      "value": "\"B2C3D4E5-F6A7-8901-BCDE-F12345678901\""
+    },
+    {
+      "filePath": "\/Users\/louiskaiser\/Documents\/Xcode\/LumixWebcam\/Shared\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 900,
+      "length": 4,
+      "value": "1920"
+    },
+    {
+      "filePath": "\/Users\/louiskaiser\/Documents\/Xcode\/LumixWebcam\/Shared\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 950,
+      "length": 4,
+      "value": "1080"
+    },
+    {
+      "filePath": "\/Users\/louiskaiser\/Documents\/Xcode\/LumixWebcam\/Shared\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 1005,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/louiskaiser\/Documents\/Xcode\/LumixWebcam\/Shared\/Constants.swift",
+      "kind": "Array",
+      "offset": 1192,
+      "length": 99,
+      "value": "[(3840, 2160), (1920, 1080), (1280, 720)]"
+    },
+    {
+      "filePath": "\/Users\/louiskaiser\/Documents\/Xcode\/LumixWebcam\/Shared\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1375,
+      "length": 18,
+      "value": "\"selectedCameraID\""
+    },
+    {
+      "filePath": "\/Users\/louiskaiser\/Documents\/Xcode\/LumixWebcam\/Shared\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1440,
+      "length": 20,
+      "value": "\"selectedResolution\""
+    },
+    {
+      "filePath": "\/Users\/louiskaiser\/Documents\/Xcode\/LumixWebcam\/Shared\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1506,
+      "length": 19,
+      "value": "\"isExtensionActive\""
+    }
+  ]
+}

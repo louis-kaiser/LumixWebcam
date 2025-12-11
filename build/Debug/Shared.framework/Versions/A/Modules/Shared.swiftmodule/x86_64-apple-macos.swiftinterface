@@ -1,0 +1,56 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target x86_64-apple-macos26.1 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Shared
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+import CoreMedia
+import CoreVideo
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum LumixConstants {
+  public static let extensionBundleID: Swift.String
+  public static let appGroupID: Swift.String
+  public static let deviceName: Swift.String
+  public static let deviceManufacturer: Swift.String
+  public static let deviceModel: Swift.String
+  public static let deviceUUID: Foundation.UUID
+  public static let streamUUID: Foundation.UUID
+  public static let defaultWidth: Swift.Int32
+  public static let defaultHeight: Swift.Int32
+  public static let defaultFrameRate: Swift.Double
+  public static let pixelFormat: Darwin.OSType
+  public static let supportedResolutions: [(width: Swift.Int32, height: Swift.Int32)]
+  public static let selectedCameraIDKey: Swift.String
+  public static let selectedResolutionKey: Swift.String
+  public static let isExtensionActiveKey: Swift.String
+}
+public class PixelBufferPool {
+  public init(width: Swift.Int, height: Swift.Int, pixelFormat: Darwin.OSType = kCVPixelFormatType_32BGRA)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func createPixelBuffer() -> CoreVideo.CVPixelBuffer?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func copyPixelBuffer(from source: CoreVideo.CVPixelBuffer) -> CoreVideo.CVPixelBuffer?
+  #endif
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class SharedUserDefaults {
+  public static let shared: Shared.SharedUserDefaults
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var selectedCameraID: Swift.String? {
+    get
+    set
+  }
+  #endif
+  public var selectedResolution: (width: Swift.Int32, height: Swift.Int32) {
+    get
+    set
+  }
+  public var isExtensionActive: Swift.Bool {
+    get
+    set
+  }
+  @objc deinit
+}

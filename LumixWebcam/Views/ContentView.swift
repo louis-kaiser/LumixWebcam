@@ -9,6 +9,7 @@
 
 import SwiftUI
 import AVFoundation
+import Shared
 
 struct ContentView: View {
     @EnvironmentObject var cameraManager: CameraDiscoveryManager

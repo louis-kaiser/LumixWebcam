@@ -10,6 +10,7 @@
 		3DBCD8B12EEAE8D400DF2617 /* louiskaiser.LumixWebcam.LumixCameraExtension.systemextension in Embed System Extensions */ = {isa = PBXBuildFile; fileRef = 3DBCD8A72EEAE8D400DF2617 /* louiskaiser.LumixWebcam.LumixCameraExtension.systemextension */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3DBCD8C42EEAE92900DF2617 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DBCD8BC2EEAE92900DF2617 /* Shared.framework */; };
 		3DBCD8C52EEAE92900DF2617 /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3DBCD8BC2EEAE92900DF2617 /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3DBCD8D32EEAF00000DF2617 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DBCD8BC2EEAE92900DF2617 /* Shared.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,6 +22,13 @@
 			remoteInfo = LumixCameraExtension;
 		};
 		3DBCD8C22EEAE92900DF2617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DBCD88D2EEAE4FE00DF2617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DBCD8BB2EEAE92900DF2617;
+			remoteInfo = Shared;
+		};
+		3DBCD8D42EEAF00000DF2617 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3DBCD88D2EEAE4FE00DF2617 /* Project object */;
 			proxyType = 1;
@@ -71,6 +79,9 @@
 		3DBCD8D12EEAEF8A00DF2617 /* Exceptions for "Shared" folder in "LumixCameraExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				Constants.swift,
+				PixelBufferPool.swift,
+				Shared.swift,
 				SharedUserDefaults.swift,
 			);
 			target = 3DBCD8A62EEAE8D400DF2617 /* LumixCameraExtension */;
@@ -78,7 +89,6 @@
 		3DBCD8D22EEAEF8A00DF2617 /* Exceptions for "Shared" folder in "Shared" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				SharedUserDefaults.swift,
 			);
 			target = 3DBCD8BB2EEAE92900DF2617 /* Shared */;
 		};
@@ -122,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DBCD8D32EEAF00000DF2617 /* Shared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +216,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				3DBCD8D52EEAF00000DF2617 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				3DBCD8A82EEAE8D400DF2617 /* LumixCameraExtension */,
@@ -339,6 +351,11 @@
 			isa = PBXTargetDependency;
 			target = 3DBCD8BB2EEAE92900DF2617 /* Shared */;
 			targetProxy = 3DBCD8C22EEAE92900DF2617 /* PBXContainerItemProxy */;
+		};
+		3DBCD8D52EEAF00000DF2617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DBCD8BB2EEAE92900DF2617 /* Shared */;
+			targetProxy = 3DBCD8D42EEAF00000DF2617 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

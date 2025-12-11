@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'LumixCameraExtension' in project 'LumixWebcam'
+➜ Explicit dependency on target 'Shared' in project 'LumixWebcam'
+Target 'Shared' in project 'LumixWebcam' (no dependencies)

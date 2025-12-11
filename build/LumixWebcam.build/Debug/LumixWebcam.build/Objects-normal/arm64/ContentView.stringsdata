@@ -1,0 +1,144 @@
+{
+  "source": "/Users/louiskaiser/Documents/Xcode/LumixWebcam/LumixWebcam/Views/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Lumix S5 Webcam",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "Extension Status",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "Install Extension",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 33
+        }
+      },
+      {
+        "comment": "",
+        "key": "Refresh",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "Detected Cameras",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 78
+        }
+      },
+      {
+        "comment": "",
+        "key": "Other Cameras",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 91
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Lumix cameras found",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 80
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Camera Selected",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 157
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select a camera from the sidebar",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 171
+        }
+      },
+      {
+        "comment": "",
+        "key": "Connect your Panasonic Lumix S5 via USB-C",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 163
+        }
+      },
+      {
+        "comment": "",
+        "key": "Make sure the camera is set to PC (Tether) mode",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 166
+        }
+      },
+      {
+        "comment": "",
+        "key": "Resolution",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 199
+        }
+      },
+      {
+        "comment": "",
+        "key": "Stop Streaming",
+        "location": {
+          "startingColumn": 57,
+          "startingLine": 217
+        }
+      },
+      {
+        "comment": "",
+        "key": "Activate Webcam",
+        "location": {
+          "startingColumn": 76,
+          "startingLine": 217
+        }
+      },
+      {
+        "comment": "",
+        "key": "Extension Active",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 260
+        }
+      },
+      {
+        "comment": "",
+        "key": "Extension Not Installed",
+        "location": {
+          "startingColumn": 70,
+          "startingLine": 260
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -11,6 +11,7 @@ import Foundation
 import CoreMedia
 import CoreVideo
 import os.log
+import Shared
 
 class FrameDistributor {
     private var testPatternTimer: DispatchSourceTimer?

@@ -10,6 +10,7 @@
 import Foundation
 import CoreMediaIO
 import os.log
+import Shared
 
 class ExtensionDeviceSource: NSObject, CMIOExtensionDeviceSource {
     private(set) var device: CMIOExtensionDevice!
@@ -47,7 +48,6 @@ class ExtensionDeviceSource: NSObject, CMIOExtensionDeviceSource {
         return [
             .deviceTransportType,
             .deviceModel,
-            .deviceIsSuspended,
             .deviceLinkedCoreAudioDeviceUID
         ]
     }
@@ -60,9 +60,6 @@ class ExtensionDeviceSource: NSObject, CMIOExtensionDeviceSource {
         }
         if properties.contains(.deviceModel) {
             deviceProperties.model = LumixConstants.deviceModel
-        }
-        if properties.contains(.deviceIsSuspended) {
-            deviceProperties.isSuspended = false
         }
         
         return deviceProperties

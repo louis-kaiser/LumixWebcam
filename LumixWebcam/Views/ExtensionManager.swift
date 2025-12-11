@@ -8,7 +8,9 @@
 // ExtensionManager.swift
 
 import Foundation
+import Combine
 import SystemExtensions
+import Shared
 
 @MainActor
 class ExtensionManager: NSObject, ObservableObject {
